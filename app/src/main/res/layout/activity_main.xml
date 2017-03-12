@@ -12,13 +12,6 @@
     android:paddingTop="16dp"
     tools:context="com.dafa.fragment1.MainActivity">
 
-    <fragment
-        android:id="@+id/input_fragment"
-        android:name="com.dafa.fragment1.InputFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/fragment_input"/>
-
 
     <fragment
         android:id="@+id/output_fragment"
@@ -26,6 +19,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_output"/>
+
+
+    <fragment
+        android:id="@+id/input_fragment"
+        android:name="com.dafa.fragment1.InputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_input"/>
 
 
 </LinearLayout>
